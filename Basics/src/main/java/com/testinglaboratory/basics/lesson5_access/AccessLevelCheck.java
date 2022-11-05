@@ -1,6 +1,6 @@
 package com.testinglaboratory.basics.lesson5_access;
 
-public class AccesLevelCheck {
+public class AccessLevelCheck {
 
     static AccessLevels accessLevels = new AccessLevels();
 

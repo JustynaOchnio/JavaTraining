@@ -26,5 +26,15 @@ public class MathsOperations {
 
 
         //TODO declare 2 variables and write simple calculator : at result print + - / * operations on those variables
+
+        int firstNumber = 5;
+        double secondNumber = 10.5;
+
+        System.out.println("First number + second number = " + (firstNumber + secondNumber));
+        System.out.println("First number * second number = " + (firstNumber * secondNumber));
+        System.out.println("First number - second number = " + (firstNumber - secondNumber));
+        System.out.println("First number : second number = " + (firstNumber / secondNumber));
+
+        System.out.println("Second number modulo first number = " + (secondNumber % firstNumber));
     }
 }

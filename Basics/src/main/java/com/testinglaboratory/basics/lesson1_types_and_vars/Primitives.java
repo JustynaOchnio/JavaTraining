@@ -19,5 +19,9 @@ public class Primitives {
 
 
         //TODO declare 2 variables each type and print it.
+
+        int firstNumber = 15;
+        double secondNumber = 30.5;
+        System.out.println(firstNumber * secondNumber);
     }
 }

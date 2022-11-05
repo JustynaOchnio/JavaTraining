@@ -45,6 +45,7 @@ public class FlowControl {
                 break;
             case 1:
                 System.out.println("I don't like 1 so I cant break it");
+                break;
 
             default:
                 System.out.println("Whatcha doin' chaps?");

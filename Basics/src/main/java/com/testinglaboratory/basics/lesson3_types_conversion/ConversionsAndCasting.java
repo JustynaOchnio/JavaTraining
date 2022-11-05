@@ -12,21 +12,33 @@ public class ConversionsAndCasting {
         System.out.println(castedFromInt);
         //casting
 
-        int fromDouble = (int)floatingPointNumber;
-        System.out.println("before casting " +floatingPointNumber + " after casting " +fromDouble);
+        int fromDouble = (int) floatingPointNumber;
+        System.out.println("before casting " + floatingPointNumber + " after casting " + fromDouble);
 
-        int value = 1/4;
+        int value = 1 / 4;
         System.out.println(value);
 
-        double preciseValue = 1/4.0;
+        double preciseValue = 1 / 4.0;
 
         System.out.println(preciseValue);
 
         char someLetter = 'a';
-        System.out.println("some letter " +  someLetter );
-        System.out.println("some letter converted to asci code " + (int)someLetter );
-        System.out.println("some number to letter " + (char)666);
+        System.out.println("some letter " + someLetter);
+        System.out.println("some letter converted to asci code " + (int) someLetter);
+        System.out.println("some number to letter " + (char) 666);
 
         //TODO try to cast two ints into double and two floats into int
+
+        int numberOne = -5;
+        int numberTwo = 10;
+
+        double doubleFromInt = numberOne;
+        System.out.println("DoubleFromInt: " + doubleFromInt);
+        float floatFromInt = numberTwo;
+        System.out.println("FloatFromInt: " + floatFromInt);
+
+        Double classDouble = 2.2;
+        Integer fromCLassDouble = classDouble.intValue();
+        System.out.println(fromCLassDouble);
     }
 }

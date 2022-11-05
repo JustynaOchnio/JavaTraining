@@ -46,6 +46,10 @@ public class ClassConventions {
         numberField++;
     }
 
+    void incrementNumber(int incrementByNumber){
+        numberField += incrementByNumber;
+    }
+
     String getOtherField() {
         return otherField;
     }
