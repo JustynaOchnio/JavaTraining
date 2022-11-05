@@ -13,6 +13,10 @@ public class Cars {
         this.doors = doors;
         this.price = price;
     }
+
+    public Cars() {
+    }
+
     public String getColor() {
         return color;
     }

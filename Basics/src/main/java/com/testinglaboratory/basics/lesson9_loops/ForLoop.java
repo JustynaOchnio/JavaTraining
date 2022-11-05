@@ -17,7 +17,7 @@ public class ForLoop {
          *  The bomb system.
          */
         System.out.println("count from 10 to ??");
-        for (int i = 10; i != 0; i--) {
+        for (int i = 10; i > -1 ; i--) {
             if (i % 2 == 0) {
                 System.out.println("Tick");
             }

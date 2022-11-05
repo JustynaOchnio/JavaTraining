@@ -9,4 +9,13 @@ public class Woman extends Human {
     int bornChildren = new Faker().random().nextInt(10);
     char breastSize = (char) (new Random().nextInt(26) + 'a');
     int collectedShoes = new Faker().random().nextInt(100);
+
+    @Override
+    public String toString() {
+        return "Woman{" +
+                "bornChildren=" + bornChildren +
+                ", breastSize=" + breastSize +
+                ", collectedShoes=" + collectedShoes +
+                '}';
+    }
 }

@@ -1,7 +1,9 @@
 package com.testinglaboratory.basics.lesson9_loops;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class ForEachLoop {
 
@@ -14,6 +16,17 @@ public class ForEachLoop {
 
         for (String person : personLists) {
             System.out.println(person);
+        }
+
+        Map<String, String> p = new HashMap<>();
+        p.put("Josh", "1");
+        p.put("Anna", "2");
+        p.put("Milfred", "3");
+        System.out.println(p);
+
+        for (Map.Entry<String, String> person : p.entrySet()){
+            System.out.println(person.getKey());
+            System.out.println(person.getValue());
         }
     }
 
